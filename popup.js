@@ -1,3 +1,5 @@
+'use strict'
+
 let changeColor = document.getElementById('changeColor');
 
   chrome.storage.sync.get('color', function(data) {
@@ -5,8 +7,8 @@ let changeColor = document.getElementById('changeColor');
     changeColor.setAttribute('value', data.color);
     changeColor.onclick = function(element) {
         let color = element.target.value;
-          chrome.tabs.executeScript(
-              tabs[0].id,
-              {code: 'document.body.style.backgroundColor = "' + color + '";'});
+            chrome.tabs.executeScript({
+                code: 'document.body.style.backgroundColor = "' + color + '";'
+            });
       };
   });
