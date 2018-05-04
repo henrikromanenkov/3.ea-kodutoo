@@ -10,8 +10,9 @@
     "options_page": "options.html",
     "content_scripts":[
         {   
-            "matches": ["https:/*/*"],
-            "css": ["style.css"]
+            "matches": ["https://*/*"],
+            "css": ["style.css"],
+            "js": ["myscripts.js"]
         }
     ],
     "page_action": {
