@@ -6,7 +6,9 @@ Kodutööna peab looma Chrome extension'i selliselt, et nõuded oleksid täidetu
 
 
 Töö eesmärk: Laiendus, mille abil saab vaadata bussiaegu ning seada endale meeldetuletus, et bussist maha ei jääks.
+
 Autorid: Henrik Romanenkov, Ea Rist
+
 Taimeri funktsionaalsus: http://www.javascriptkit.com/script/script2/alarm.shtml
 
 ## Nõuded
